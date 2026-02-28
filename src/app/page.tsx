@@ -870,7 +870,7 @@ function Preview({ ctx }: any) {
               <div style={{textAlign:"right"}}>
                 <p style={{color:"rgba(255,255,255,.95)",fontSize:14,fontWeight:700}}>المملكة العربية السعودية</p>
                 <p style={{color:"rgba(255,255,255,.8)",fontSize:12}}>وزارة التعليم</p>
-                <p style={{color:"rgba(255,255,255,.75)",fontSize:12}}>{r.schoolNameOverride||r.school||teacher?.school||""}</p>
+                <p style={{color:"rgba(255,255,255,.75)",fontSize:12}}>{r.schoolNameOverride || r.school || ""}</p>
               </div>
               <div style={{flex:1,display:"flex",justifyContent:"center"}}>
                 <div style={{background:"#fff",borderRadius:10,padding:"5px 8px"}}>
